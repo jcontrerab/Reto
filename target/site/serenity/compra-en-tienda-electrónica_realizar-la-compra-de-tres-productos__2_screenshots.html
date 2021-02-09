@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto base para Automatización</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_forms_sl_compra_en_tienda_electrónica.html">Compra En Tienda Electr&oacute;nica</a></span>
+                > <span class="truncate-60"><a
+                    href="compra-en-tienda-electrónica_realizar-la-compra-de-tres-productos__2.html">Realizar la compra de tres productos </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_theme.html"><i class="fa fa-comments-o"></i> Themes</a>
+        </li>
+        <li >
+            <a href="requirement_type_capability.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-02-2021 19:37</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Compra En Tienda Electrónica </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="theme_automation.html">Automation
+                                    (theme)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="capability_automation_sl_forms.html">Forms
+                                    (capability)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="tag_regresion.html">Regresion
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="tag_casoexitoso.html">Casoexitoso
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-3x' title='PENDING'></i></span>
+                            <span class="test-case-title">
+                                <span class="pending-color">Realizar La Compra De Tres Productos
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Ingresar a la URL dar clic en SignIn<br>When Ingresar un correo valido dar clic en crear cuenta<br><table class='embedded'><thead><th>correo</th></thead><tbody><tr><td>&lt;Correo&gt;</td></tr></tbody></table><br>Then Diligenciar todos los campos obligatorios y fecha de nacimiento<br><table class='embedded'><thead><th>nombre</th><th>apellido</th><th>password</th><th>dia</th><th>mes</th><th>año</th><th>nombre_address</th><th>apellido_address</th><th>address</th><th>ciudad</th><th>estado</th><th>postal</th><th>pais</th><th>movil</th><th>alias</th></thead><tbody><tr><td>&lt;Nombre&gt;</td><td>&lt;Apellido&gt;</td><td>&lt;Password&gt;</td><td>&lt;Dia&gt;</td><td>&lt;Mes&gt;</td><td>&lt;Año&gt;</td><td>&lt;Nombre_Address&gt;</td><td>&lt;Apellido_Address&gt;</td><td>&lt;Address&gt;</td><td>&lt;Ciudad&gt;</td><td>&lt;Estado&gt;</td><td>&lt;Postal&gt;</td><td>&lt;Pais&gt;</td><td>&lt;Movil&gt;</td><td>&lt;Alias&gt;</td></tr></tbody></table><br>And Abrir el panel de términos y condiciones del servicio<br>And Continuar el proceso de compra<br>And Confirmar la compra<br></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="850c01d7690d2734a1f4e67f7bbf5f7631e7bbb76be4bb38175ec700a0a67ec8.png" title="Given Ingresar a la URL dar clic en SignIn" width="960"/>
+                <img src="0e8f5f2cf4d548b5b01c518ac4852f22ed8804faee524d2fe5e65f9cc86acac6.png" title="Ingresar URL" width="960"/>
+                <img src="850c01d7690d2734a1f4e67f7bbf5f7631e7bbb76be4bb38175ec700a0a67ec8.png" title="Clic sign in" width="960"/>
+                <img src="scaled_7adde2696df2248c02e736df9fe2942a1205c40d0f9431084f6157ff92c26b78.png" title="When Ingresar un correo valido dar clic en crear cuenta
+| correo |
+| julina473@gmail.com |" width="960"/>
+                <img src="aa8f33e16f7c995b6c0f64afc4139c8c37c7be3c7a95b4b8922c7f6b00ac328a.png" title="Ingresar  correo: julina473@gmail.com" width="960"/>
+                <img src="scaled_c6b7f4eb5d7f971cdd6ac5fb29e275250a8dcdded947e9351d91c8373dca3f08.png" title="Clic crear cuenta" width="960"/>
+                <img src="ab41a759f337b096cb4fc61defdf07c1aec2f81d5c93b38764ec8da290b887b6.png" title="Then Diligenciar todos los campos obligatorios y fecha de nacimiento
+| nombre | apellido | password | dia | mes | a&ntilde;o | nombre_address | apellido_address | address | ciudad | estado | postal | pais | movil | alias |
+| pepita | perez | 123456 | 12 | April | 1998 | andres | perez | calle 58 i bis | Bogota | Florida | 110111 | United States | 3213454432 | dd |" width="960"/>
+                <img src="scaled_97f8cc4237730d9beab31c54c6ebc9e3d29c83e2d6844595e0b3beb2a39d3a31.png" title="Ingresar  nombre: pepita" width="960"/>
+                <img src="scaled_3652c83bc6e0c338b903dedc8af7ce968b54c03364a383c750115b9450e8303b.png" title="Ingresar  apellido: perez" width="960"/>
+                <img src="scaled_044404579cafd72f09594deb2bc287c0c313e925411185a6895113add342670f.png" title="Ingresar  password: 123456" width="960"/>
+                <img src="scaled_7b94273d5486e3f5849ed6e01d92ed4aa9835132881a5a06c06bb60bed35b398.png" title="Ingresar  nombre address: andres" width="960"/>
+                <img src="scaled_0f93d76bf2f0cbf90b7df54d970413bc861e23a5c8695685bbfc18c1cbfd4fd5.png" title="Ingresar  apellido address: perez" width="960"/>
+                <img src="scaled_c71ca021f5cece23027f88152af7658ab9955f9d7dcf88cfae29ddb029686e83.png" title="Ingresar  address: calle 58 i bis" width="960"/>
+                <img src="scaled_694fe8c890114a060f6d5c0046fc1bb17501a100b65ee850c6939583205b5c9d.png" title="Ingresar  ciudad: Bogota" width="960"/>
+                <img src="edc6b7b1bb25123bd21e301af6dcc3adba70b529bf50af33482ded0267a61879.png" title="Ingresar  codigo postal: 110111" width="960"/>
+                <img src="41ae75480ef24bce763e209f4a01bc605bcb25e5588f87dbe94c2610b3d650fd.png" title="Ingresar movil: 3213454432" width="960"/>
+                <img src="ab41a759f337b096cb4fc61defdf07c1aec2f81d5c93b38764ec8da290b887b6.png" title="Ingresar alias: dd: <span class='pending-color'>PENDING</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>

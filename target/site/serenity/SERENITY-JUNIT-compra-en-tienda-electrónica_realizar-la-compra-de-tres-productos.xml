@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Compra en tienda electrónica" skipped="0" tests="1" time="12.79" timestamp="2021-02-08T18:04:52.175051-05:00[America/Bogota]"><testcase name="Realizar la compra de tres productos"><error message="Unresolved compilation problem: &#10;&#9;The method getCorreo() is undefined for the type Data&#10;" type="java.lang.Error">Unresolved compilation problem: 
+	The method getCorreo() is undefined for the type Data
+</error><system-err>Unresolved compilation problem: 
+	The method getCorreo() is undefined for the type Data
+&#13;
+com.choucair.formacion.definition.PopupValidationDefinition.ingresar_un_correo_valido_dar_clic_en_crear_cuenta(PopupValidationDefinition.java:28)&#13;
+✽.When Ingresar un correo valido dar clic en crear cuenta(src/test/resources/features/Automation/Forms/PopupValidation.feature:25)&#13;
+</system-err></testcase></testsuite>
